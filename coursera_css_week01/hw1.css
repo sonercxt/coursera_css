@@ -1,0 +1,45 @@
+header {
+    background-color: #22223b;
+}
+
+h1 {
+    color: #f2e9e4;
+    font-family: Georgia, 'Times New Roman', Times, serif font-size: 3vw;
+    text-align: center;
+    margin-bottom: 0vw;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #22223b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+
+section {
+    background-color: #c9ada7;
+    padding-bottom: 1vw;
+    margin-top: -3vw;
+}
+
+section a {
+    color: #22223b;
+}
+
+nav {
+    background-color: #9a8c98;
+    margin-bottom: 3vw;
+}
+
+a {
+    font-size: 1, 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 4vw;
+    color: #22223b;
+}
+
+img {
+    width: 0vw;
+    height: 0vw;
+}
