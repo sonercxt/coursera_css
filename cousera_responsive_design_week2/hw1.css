@@ -1,0 +1,150 @@
+body {
+    margin: 1%;
+    padding: 1%;
+    background-color: rgba(0, 0, 255, .2);
+    font-size: 100%;
+    min-width: 500px;
+
+}
+
+header,
+footer {
+    background-color: #0066FF;
+    padding: 1%;
+    margin: 1%;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: rgba(0, 0, 0, .7);
+    ;
+
+}
+
+section {
+    margin: 1%;
+    padding: 1%;
+}
+
+nav a {
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 35px;
+    text-decoration: none;
+    padding: 2%;
+    margin: 1%;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255, 0, 0, .7);
+    ;
+}
+
+.myClass {
+    margin: 0em 1em;
+    padding: .75em;
+    border: 1px solid black;
+    border-radius: .25%;
+
+    /* Safari and Chrome */
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+
+}
+
+ol {
+    list-style: upper-roman;
+    margin: 1em;
+}
+
+img {
+    display: none;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:900px) {
+    body {
+        background-color: rgb(154, 175, 221);
+    }
+
+    header,
+    footer {
+        background-color: rgb(154, 175, 221);
+    }
+
+    /* i added "i guess" after h1*/
+    header h1::after {
+        content: "(I guess...)"
+    }
+
+    #left {
+        margin-top: 0px;
+    }
+
+    .myClass {
+        margin-bottom: 10px;
+    }
+
+    img {
+        display: inline-block;
+        justify-content: space-between;
+        position: relative;
+        right: 147px;
+        padding-right: 10px;
+        width: 150px;
+        height: 100px;
+    }
+
+    section {
+        position: absolute;
+
+    }
+
+    #center {
+        position: absolute;
+        margin-top: 0%;
+        margin-left: 0%;
+        left: 30%;
+        display: inline-block;
+        width: 600px;
+    }
+
+    footer {
+        margin-top: 25%;
+    }
+}
+
+@media print and (max-width:900px) {
+
+    header h1 {
+        text-transform: capitalize;
+        font-size: 1em;
+    }
+
+    nav a {
+        text-decoration-line: underline;
+        border: none;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .myClass {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+
+    section {
+        margin: 0%;
+        padding: 0%;
+    }
+}
