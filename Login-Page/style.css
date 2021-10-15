@@ -1,0 +1,116 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 24vh;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 17%, rgba(203, 83, 194, 1) 87%);
+
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 2%, rgba(195, 75, 171, 1) 36%, rgba(59, 160, 166, 1) 96%, rgba(58, 161, 167, 1) 100%, rgba(149, 59, 166, 1) 100%, rgba(59, 160, 166, 1) 100%);
+}
+
+main {
+    background-color: rgb(236, 235, 234);
+    background: rgb(205, 223, 242);
+    background: linear-gradient(188deg, rgba(205, 223, 242, 1) 0%, rgba(236, 235, 234, 1) 100%, rgba(144, 144, 159, 1) 100%);
+    width: 24vw;
+    height: 42vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 8vw;
+    position: relative;
+    bottom: 12vh;
+}
+
+figure {
+    height: 8vh;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+}
+
+.input>input {
+    height: 5.68vh;
+    width: 16vw;
+    border: none;
+}
+
+.icon-person {
+    background-color: rgb(60, 70, 207);
+    width: 3vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box:nth-child(3) {
+
+    font-size: 12px;
+    width: auto;
+    width: 19vw;
+    position: relative;
+    top: 4vh;
+}
+
+.input-box:nth-child(3)>input {
+    position: relative;
+    bottom: 0.5vh;
+}
+
+.input-box:nth-child(3)>label {
+    color: #747171;
+}
+
+.input-box:nth-child(3)>a {
+    margin-left: 5vw;
+    text-decoration: none;
+    color: #747171;
+}
+
+.input-box:nth-child(3)>a:hover {
+    color: #474747;
+}
+
+.input-box:nth-child(3)>label {
+    margin-right: 1vw;
+}
+
+#login>button {
+    height: 6vh;
+    width: 19vw;
+    border-radius: 0 0 20px 20px;
+    border: none;
+    color: #a19f9f;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    background: rgb(196, 203, 203);
+    background: linear-gradient(0deg, rgba(196, 203, 203, 1) 58%, rgba(175, 177, 244, 1) 100%);
+}
+
+#login>button:hover {
+    color: #747171;
+}
